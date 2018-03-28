@@ -12,7 +12,8 @@ class TLClassifier(object):
             image (cv::Mat): image containing the traffic light
 
         Returns:
-            int: ID of traffic light color (specified in styx_msgs/TrafficLight)
+            int: ID of traffic light color 
+                 (specified in styx_msgs/TrafficLight)
 
         """
         #TODO implement light color prediction
